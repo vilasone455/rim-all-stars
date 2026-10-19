@@ -8,45 +8,43 @@
 
 - [Requires](#requires)
 - [How a colonist becomes a hero](#how-a-colonist-becomes-a-hero)
-- [Featured heroes](#featured-heroes)
-  - [Vergil (Devil May Cry)](#vergil-devil-may-cry)
-  - [Pain (Naruto)](#pain-naruto)
-  - [Shirou (Fate/stay night)](#shirou-fatestay-night)
-  - [Gojo (Jujutsu Kaisen)](#gojo-jujutsu-kaisen)
-  - [Nakime (Demon Slayer)](#nakime-demon-slayer)
-  - [Minato (Naruto)](#minato-naruto)
-- [The other heroes](#the-other-heroes)
+- [Heroes](#heroes)
   - [Accelerator (A Certain Magical Index)](#accelerator-a-certain-magical-index)
+  - [Gojo (Jujutsu Kaisen)](#gojo-jujutsu-kaisen)
   - [Goku (Dragon Ball)](#goku-dragon-ball)
   - [Inumaki (Jujutsu Kaisen)](#inumaki-jujutsu-kaisen)
   - [Itachi (Naruto)](#itachi-naruto)
+  - [Minato (Naruto)](#minato-naruto)
+  - [Nakime (Demon Slayer)](#nakime-demon-slayer)
   - [Obito (Naruto)](#obito-naruto)
+  - [Pain (Naruto)](#pain-naruto)
   - [Sasuke (Naruto)](#sasuke-naruto)
   - [Satō (Ajin)](#satō-ajin)
   - [Shikamaru (Naruto)](#shikamaru-naruto)
+  - [Shirou (Fate/stay night)](#shirou-fatestay-night)
   - [Todo (Jujutsu Kaisen)](#todo-jujutsu-kaisen)
-- [Featured weapons](#featured-weapons)
-  - [Last Prism (Terraria)](#last-prism-terraria)
-  - [Flame Gauntlet](#flame-gauntlet)
-  - [Paradise Lost (Lobotomy Corporation)](#paradise-lost-lobotomy-corporation)
-  - [Power Pole (Dragon Ball)](#power-pole-dragon-ball)
-  - [Samehada (Naruto)](#samehada-naruto)
-  - [Chain Sickle](#chain-sickle)
-- [All other gear](#all-other-gear)
+  - [Vergil (Devil May Cry)](#vergil-devil-may-cry)
+- [Weapons and gear](#weapons-and-gear)
   - [Weapons](#weapons)
     - [Bank Shot Pistol](#bank-shot-pistol)
     - [Bubble Pipe](#bubble-pipe)
+    - [Chain Sickle](#chain-sickle)
     - [Coil Gun](#coil-gun)
+    - [Flame Gauntlet](#flame-gauntlet)
     - [Frost Bomb](#frost-bomb)
     - [Frost Rifle](#frost-rifle)
     - [Fūma Shuriken](#fūma-shuriken)
+    - [Last Prism (Terraria)](#last-prism-terraria)
     - [Mimic Beacon](#mimic-beacon)
+    - [Power Pole (Dragon Ball)](#power-pole-dragon-ball)
+    - [Samehada (Naruto)](#samehada-naruto)
     - [Tag Scroll](#tag-scroll)
     - [Vacuum](#vacuum)
     - [Water Gun](#water-gun)
   - [E.G.O. weapons](#ego-weapons)
     - [Magic Bullet](#magic-bullet)
     - [Mimicry](#mimicry)
+    - [Paradise Lost (Lobotomy Corporation)](#paradise-lost-lobotomy-corporation)
     - [Solemn Lament](#solemn-lament)
   - [Worn](#worn)
     - [Drone Control Rig](#drone-control-rig)
@@ -72,25 +70,11 @@ Harmony, Vanilla Expanded Framework, Biotech. RimWorld 1.6 (1.7 beta: see Compat
 - Accept **Awaken**. The colonist becomes the hero's Host and switches into hero form at will.
 - Hero form and the big abilities spend the colony's shared charge: 100, refilling 5 an hour while the device has power. More research: up to 200 charge and 6 heroes.
 
-## Featured heroes
+## Heroes
 
-### Vergil (Devil May Cry)
+### Accelerator (A Certain Magical Index)
 
-![Vergil, in game](gifs/vergil.gif)
-
-![Vergil, card](cards/vergil.png)
-
-### Pain (Naruto)
-
-![Pain, in game](gifs/pain.gif)
-
-![Pain, card](cards/pain.png)
-
-### Shirou (Fate/stay night)
-
-![Shirou, in game](gifs/shirou.gif)
-
-![Shirou, card](cards/shirou.png)
+![Accelerator, card](cards/accelerator.png)
 
 ### Gojo (Jujutsu Kaisen)
 
@@ -98,100 +82,9 @@ Harmony, Vanilla Expanded Framework, Biotech. RimWorld 1.6 (1.7 beta: see Compat
 
 ![Gojo, card](cards/gojo.png)
 
-### Nakime (Demon Slayer)
-
-![Nakime, in game](gifs/nakime.gif)
-
-![Nakime, card](cards/nakime.png)
-
-### Minato (Naruto)
-
-![Minato, in game](gifs/minato-chain.gif)
-
-![Minato, card](cards/minato.png)
-
-## The other heroes
-
-No GIF of these heroes yet. Each ability is listed with its in-game description and numbers.
-
-### Accelerator (A Certain Magical Index)
-
-![Accelerator, card](cards/accelerator.png)
-
-Nothing that touches him keeps its direction.
-
-**How to get it**
-
-- Trial: intellectual 12.
-- Trial: damage taken 300.
-- Awakening gives the trait abrasive, replacing any trait it conflicts with.
-- The abilities are there only while the Host is manifested (hero form). Hero form drains 12 of the colony's charge an hour.
-
-#### Vector manipulation
-
-Pauses the game and catches every bullet that will pass within 12 cells of Accelerator in the next 0.35 seconds. Sort them into up to 4 groups and give each a new heading and a force from x0.25 to x2; Apply sends each changed group on from where it was caught, its speed, damage and reach times the force. Mortar shells and rockets cannot be caught. Use Reflex surge first to have time to set it.
-
-*Cooldown: 5 s · Brain strain: 8% / 24% / 48% / 80% for 1 / 2 / 3 / 4 groups changed*
-
-#### Reflex surge
-
-The game runs at a quarter of its speed for 5 seconds of game time (about 20 real seconds), whatever speed is set. Nobody moves further or hits harder, Accelerator included: it only gives time to use vector manipulation. Costs 10% brain strain; end it early from the button on its status.
-
-*Cooldown: 30 s*
-
-#### Vector shove
-
-Accelerator touches an adjacent pawn or loose thing and throws it in a chosen direction. A pawn flies less far the bigger it is, is stunned, and is hurt more if it hits a wall; pawns in its path are knocked aside. A chunk, corpse or weapon hits the first pawn or wall in its path, harder the heavier it is. If the target hit him in melee in the last second, that damage comes back with the throw.
-
-*Cooldown: 20 s · Pawn: 8 cells / body size, 1.5 blunt per cell, +8 into a wall, 1 s stun · In the path: knocked 1 cell, 8 blunt, 0.5 s stun · Thing: 12 cells, 1 blunt per kg, up to 40 · Brain strain: 5%*
-
-#### Plasma
-
-Accelerator stands still and compresses air into plasma at one hand; while he channels, bullets that come near him are pulled into his hand and destroyed (not mortar shells or rockets). Then the plasma goes down a lane and bursts at the first standing pawn or wall, starting fires; pawns further down and Accelerator are not hit. A stun, a downing or an order cancels it: the cooldown is spent, the strain is not.
-
-*Cooldown: 90 s · Channel: 3 s, catching bullets within 8 cells · Lane: 15 cells · Burst: 50 heat within 1.5 cells, 40% armour penetration · Brain strain: 45% on release*
-
-#### Vector flick
-
-Accelerator kicks a pebble at a pawn. It always hits, and pawns in between are not hit. No brain strain.
-
-*Casting time: 0.3s · Cooldown: 2 s · Range: 24.9 cells · Damage: 14 blunt, 30% armour penetration*
-
 ### Goku (Dragon Ball)
 
 ![Goku, card](cards/goku.png)
-
-He gets back up, and hits harder each time.
-
-**How to get it**
-
-- Trial: melee 15.
-- Awakening gives the trait gourmand, replacing any trait it conflicts with.
-- The abilities are there only while the Host is manifested (hero form). Hero form drains 12 of the colony's charge an hour.
-
-#### Solar flare
-
-Goku lets out a blinding flash. Every pawn around him that can see him, except his own faction, is stunned and flash-blinded (sight -80%). No damage; a pawn behind a wall is not affected.
-
-*Charge cost: 3 · Casting time: 0.25s · Cooldown: 45 s · Radius: 6.9 cells · Stun: 3.5 s · Blind: 20 s*
-
-#### Instant transmission
-
-Goku teleports to any standable cell on the map, no line of sight needed. First pick a pawn next to him to take along (not a mechanoid), or Goku himself to go alone. He channels while he locks onto the strongest life energy near the cell: short next to a healthy pawn, much longer on an empty cell. The passenger is not held: if it walks away, he goes alone; a hostile one arrives stunned. A stun or downing during the channel spends the cooldown; a move order spends nothing.
-
-*Charge cost: 2 · Cooldown: 60 s · Lock radius: 4 cells · Channel: 0.5 s + 0.01 s per cell, up to +300% on an empty cell, at most 12 s · Hostile passenger: 1.5 s stun*
-
-#### Kamehameha
-
-Goku charges the ball standing still, then holds it until you press Fire. The beam hits every pawn and building in its lane, friend or foe, several times and pushes pawns along it, then explodes where it ends; a wall stops it. Warp (while Instant Transmission is ready) jumps to a cell first and uses Instant Transmission's charge and cooldown too. A stun or downing while charging spends the charge and cooldown; Cancel gives them back.
-
-*Charge cost: 15 · Cooldown: 120 s · Charge: 2.5 s · Beam: 3 x 20 cells, 1.5-cell push · Hits: 4 x 20 burn, 50% armour penetration · Blast: 40 within 2.5 cells*
-
-#### Spirit bomb
-
-Goku gathers ki until you press Throw. He and every colonist who presses Lend energy add power each second, paid in Rest and less as they tire; a Tired pawn gives nothing. The bomb never misses, and the more power, the wider and harder it hits every hostile pawn; nothing else is hurt. A stun or downing ends it with nothing and spends the charge and cooldown; Cancel gives them back.
-
-*Charge cost: 30 · Cooldown: 1 day · Charge: at least 3 s, up to 60 power · Giving: 1 power and 2% Rest per second, none below 28% Rest · Radius: 2 + 0.15 per power · Damage: 5 x (4 + 1.2 per power) burn*
 
 ### Inumaki (Jujutsu Kaisen)
 
@@ -244,39 +137,17 @@ An explosion goes off on everyone who hears it and also hits anyone next to a li
 
 ![Itachi, card](cards/itachi.png)
 
-He is never where the blow lands, and what looks at him sees what he chooses.
+### Minato (Naruto)
 
-**How to get it**
+![Minato, in game](gifs/minato-chain.gif)
 
-- Trial: melee 12.
-- Trial: intellectual 12.
-- Trial: kills 30.
-- Awakening gives the trait super-immune, replacing any trait it conflicts with.
-- The abilities are there only while the Host is manifested (hero form). Hero form drains 10 of the colony's charge an hour.
+![Minato, card](cards/minato.png)
 
-#### Crow dispersal
+### Nakime (Demon Slayer)
 
-Itachi disperses into crows and flies to a revealed spot, over walls, water, fire and enemies, with no line of sight; he lands ready to act. Uses one of his 3 shared crow charges. While the Scatter toggle is on, a hit of 6 or more damage from a live attacker is cancelled and he re-forms 5 to 10 cells away, for a charge and a little blood. Neither works while the Susanoo stands.
+![Nakime, in game](gifs/nakime.gif)
 
-*Casting time: 0.2s · Cooldown: 10 s · Range: 34.9 cells*
-
-#### Carrion
-
-Itachi sends crows to strip a fresh corpse and carry back what they took: his bleeding closes, lost blood returns, and a Hemogen reserve refills in part. Uses up the corpse and one crow charge; one flock at a time.
-
-*Casting time: 0.2s · Cooldown: 1 s · Range: 10 cells*
-
-#### False face
-
-Every enemy around Itachi whose attention is on him sees its nearest ally as Itachi and attacks it, for up to 10 seconds. It breaks for a victim that takes damage, when its false Itachi goes down, or when Itachi goes down. Mechanoids and animals are not fooled.
-
-*Charge cost: 3 · Casting time: 0.5s · Cooldown: 45 s · Radius: 15 cells*
-
-#### Susanoo
-
-Itachi raises the Susanoo for 12 seconds. The Yata Mirror turns every hit from outside. The Totsuka Blade, a command while it stands, stabs a target within 4 cells every 3 seconds for 30 damage, or seals one that is downed or at 30% health or less: it leaves the map as a kill, its gear left, no corpse; one seal per Susanoo, never a mechanoid. Itachi walks at half speed and cannot use Crow Dispersal meanwhile. Afterwards his consciousness drops 30% for 6 hours and he loses blood.
-
-*Charge cost: 20 · Casting time: 1s · Cooldown: 1 day · Effect duration: 12s*
+![Nakime, card](cards/nakime.png)
 
 ### Obito (Naruto)
 
@@ -319,43 +190,15 @@ Obito breathes a widening corkscrew of flame straight ahead. Everyone it reaches
 
 *Charge cost: 2 · Casting time: 0.6s · Cooldown: 20 s · Length: 10 cells, widening to radius 2.5 · Damage: 22 burn · Breath taken: 3 s*
 
+### Pain (Naruto)
+
+![Pain, in game](gifs/pain.gif)
+
+![Pain, card](cards/pain.png)
+
 ### Sasuke (Naruto)
 
 ![Sasuke, card](cards/sasuke.png)
-
-His Rinnegan holds his thrown weapons in the air, trades places with anything it sees, runs lightning between them and sets black flames that nothing puts out.
-
-**How to get it**
-
-- Trial: melee 14.
-- Trial: intellectual 10.
-- Trial: 15 kills with a Fūma Shuriken.
-- Awakening gives the trait sanguine, replacing any trait it conflicts with.
-- The abilities are there only while the Host is manifested (hero form). Hero form drains 12 of the colony's charge an hour.
-
-#### Amenoyodomi
-
-Toggle: off, hang, drift. While on, a kunai thrown at a cell stops in the air, and the Fūma Shuriken stops at the end of its cut; held weapons creep on and touch nothing. Let go fires them all on at full speed: a kunai hits the first pawn in line, allies too; the Fūma cuts every pawn on its line. They drop when it is turned off, at a wall, or when Sasuke is downed, asleep or gone. While he is manifested, his kunai belt refills with conjured kunai that vanish once they land.
-
-*Held: up to 5 weapons, 60 s each · Creep: 1% (hang) / 10% (drift) of flight speed · Flight after let go: 14.9 cells (kunai), 12 (Fūma) · Belt refill: 1 kunai every 5 s*
-
-#### Amenotejikara
-
-Pick two targets and they change places at once: Sasuke, a pawn, an item on the ground, or a weapon Amenoyodomi holds (click where it hangs). One of the two must be Sasuke, an item or a held weapon; two other pawns cannot be swapped. Both must be in sight. A swap that would put a pawn where it cannot stand fails; a held weapon keeps its heading.
-
-*Charge cost: 2 · Cooldown: 3 s · Range: 12.9 cells · Largest body size: 2*
-
-#### Raikō Kusari
-
-Sasuke runs a Chidori through the weapons Amenoyodomi holds, linking them into a net in throw order; with 3 or more, the last links back to the first if close enough. A link stretched too far snaps. Any pawn on a line, colonists too but not Sasuke, is paralysed and burns until the net ends; a shield belt that touches it breaks; bullets pass through. Let go ends it, and the weapons fly on charged, stunning what they hit.
-
-*Charge cost: 8 · Casting time: 0.6s · Cooldown: 30 s · Needs: 2 held weapons within 12 cells · Link: up to 6 cells · Net: 8 s, 3 burn every 1 s · Mechanoids: stunned 3 s after · Charged weapons: 2 s stun*
-
-#### Amaterasu
-
-Black flames on one pawn, or on every weapon Amenoyodomi holds. A burning pawn takes 4 burn per second, water does not put it out, and it spreads to adjacent pawns, allies too but never Sasuke. Burning kunai set what they hit alight and burn where they land; the burning Fūma lights every pawn it cuts. Floors and buildings never catch. Release puts them all out. Costs a bleeding eye (sight -50%) for 60 seconds; casting again before it heals blinds him for 10 seconds.
-
-*Charge cost: 5 · Casting time: 0.5s · Cooldown: 60 s · Range: 12.9 cells · Burn: 20 s on a pawn, 20 s where a kunai lands*
 
 ### Satō (Ajin)
 
@@ -452,92 +295,25 @@ Shikamaru gathers the shadows around him into his own for 20 seconds: his lines 
 
 *Charge cost: 3 · Casting time: 0.5s · Cooldown: 45 s · Needs: 8 cells under 40% light within 4 cells*
 
+### Shirou (Fate/stay night)
+
+![Shirou, in game](gifs/shirou.gif)
+
+![Shirou, card](cards/shirou.png)
+
 ### Todo (Jujutsu Kaisen)
 
 ![Todo, card](cards/todo.png)
 
-He claps, and whoever he chose is standing somewhere else.
+### Vergil (Devil May Cry)
 
-**How to get it**
+![Vergil, in game](gifs/vergil.gif)
 
-- Trial: melee 14.
-- Trial: enemies downed (humanlikes) 20.
-- Awakening gives the trait brawler, replacing any trait it conflicts with.
-- The abilities are there only while the Host is manifested (hero form). Hero form drains 8 of the colony's charge an hour.
+![Vergil, card](cards/vergil.png)
 
-#### Stone
-
-Todo throws a stone charged with his cursed energy onto the ground; a clap reaches it from anywhere on the map, no line of sight needed. Up to three stones at once; throwing at one of his stones takes it back. Stones fade after about a day, stay when he leaves hero form, and lie forbidden so nobody hauls them away.
-
-*Casting time: 0.5s · Cooldown: 10 s · Range: 9.9 cells*
-
-#### Clap
-
-Todo claps and changes places with a living person or animal in sight within 15 cells, or with one of his stones anywhere on the map; a stone lands where he stood, so a second clap brings him back. A swapped hostile loses track of where it is for a moment. Uses one of three claps, which grow back one every 10 seconds; a stone more than 25 cells away needs all three and is used up.
-
-*Casting time: 0.3s*
-
-#### Double clap
-
-Todo claps twice and two others change places: people or animals in sight within 15 cells, or his stones anywhere on the map, at least one a person or animal. Todo does not move; this is how a raider ends up in your killbox. Uses one of the three shared claps; a stone more than 25 cells away needs all three and is used up.
-
-*Casting time: 0.5s*
-
-#### Black flash
-
-A bare-handed punch. Soon after a clap that moved someone it is a Black Flash: more damage, the target stunned, and Todo in the zone (+15% melee hit chance for 10 seconds). One Black Flash per clap; otherwise it is an ordinary punch.
-
-*Charge cost: 1 · Casting time: 0.2s · Cooldown: 6 s · Punch: 9 blunt, 15% armour penetration · Black Flash: within 3 s of a clap, x2.5 damage, 1 s stun*
-
-#### Provoke
-
-Todo calls out every hostile within range, making them drop what they were doing and come for him.
-
-He braces for the response, gaining protection while the challenge holds.
-
-*Charge cost: 5 · Casting time: 0.5s · Cooldown: 90 s · Effect duration: 20s*
-
-## Featured weapons
+## Weapons and gear
 
 **One of a kind:** the four E.G.O. weapons, Last Prism, Samehada and Power Pole are made at the fabrication bench after their research, and only one of each can ever exist in a world, even after it is destroyed.
-
-### Last Prism (Terraria)
-
-![Last Prism, in game](gifs/last-prism.gif)
-
-![Last Prism, card](cards/last-prism.png)
-
-### Flame Gauntlet
-
-![Flame Gauntlet, in game](gifs/flame-gauntlet.gif)
-
-![Flame Gauntlet, card](cards/flame-gauntlet.png)
-
-### Paradise Lost (Lobotomy Corporation)
-
-![Paradise Lost, in game](gifs/paradise-lost.gif)
-
-![Paradise Lost, card](cards/paradise-lost.png)
-
-### Power Pole (Dragon Ball)
-
-![Power Pole, in game](gifs/power-pole.gif)
-
-![Power Pole, card](cards/power-pole.png)
-
-### Samehada (Naruto)
-
-![Samehada, in game](gifs/samehada.gif)
-
-![Samehada, card](cards/samehada.png)
-
-### Chain Sickle
-
-![Chain Sickle, in game](gifs/chain-sickle.gif)
-
-![Chain Sickle, card](cards/chain-sickle.png)
-
-## All other gear
 
 ### Weapons
 
@@ -578,6 +354,12 @@ Blows one bubble at a pawn's face; it always gets there and leaves soap in its e
 
 *Casting time: 0.45s · Cooldown: 8 s · Range: 8.9 cells · Soap in the eyes: 5 s · Soap: 1 blow*
 
+#### Chain Sickle
+
+![Chain sickle, in game](gifs/chain-sickle.gif)
+
+![Chain sickle, card](cards/chain-sickle.png)
+
 #### Coil Gun
 
 A rifle that throws its rounds with magnetic coils, fed from a battery in the stock. Normal fire uses no charge, and mechanoids take 1.5 times its damage. The wielder can use Chain Arc, which spends charge from the gun's 20. The battery does not refill on its own: within 1.5 cells of a charged battery it recharges 1 a second, taking 10 Wd for each.
@@ -593,6 +375,12 @@ A rifle that throws its rounds with magnetic coils, fed from a battery in the st
 Fires a bolt of lightning at a hostile pawn that jumps on to the nearest hostile near the last one hit, skipping allies and downed pawns. Mechanoids and soaked pawns take more, and from a soaked pawn the next jump reaches further.
 
 *Casting time: 0.5s · Cooldown: 20 s · Range: 25.9 cells · Jumps: 3, each within 3 cells (x2 from a soaked pawn) · Damage: 12 electrical burn, 35% armour penetration · Mechanoids x1.5, soaked x1.5 · Battery: 5*
+
+#### Flame Gauntlet
+
+![Flame gauntlet, in game](gifs/flame-gauntlet.gif)
+
+![Flame gauntlet, card](cards/flame-gauntlet.png)
 
 #### Frost Bomb
 
@@ -638,6 +426,12 @@ A massive folding shuriken: four curved blades that fan open around a grip ring.
 
 Cooldown: 4 s · Range: 12 cells
 
+#### Last Prism (Terraria)
+
+![Last prism, in game](gifs/last-prism.gif)
+
+![Last prism, card](cards/last-prism.png)
+
 #### Mimic Beacon
 
 A throwable projector that stands a copy of the thrower where it lands. The copy cannot move or fight, but most enemies shoot at it. It stops nothing: it fails when shot to pieces or after about 20 seconds, leaving nothing behind. It rebuilds its charge between throws and is never used up.
@@ -651,6 +445,18 @@ A throwable projector that stands a copy of the thrower where it lands. The copy
 ##### Throw mimic beacon
 
 Cooldown: 8 s · Range: 12.9 cells
+
+#### Power Pole (Dragon Ball)
+
+![Power Pole, in game](gifs/power-pole.gif)
+
+![Power Pole, card](cards/power-pole.png)
+
+#### Samehada (Naruto)
+
+![Samehada, in game](gifs/samehada.gif)
+
+![Samehada, card](cards/samehada.png)
 
 #### Tag Scroll
 
@@ -780,6 +586,12 @@ Every swing may let the sword take its wielder: 50% below the minor break thresh
 ##### Overclock
 
 The wielder stands still and swings 5 times, one a second, at standing hostiles next to it. Costs 20 mood for 1 day.
+
+#### Paradise Lost (Lobotomy Corporation)
+
+![Paradise Lost, in game](gifs/paradise-lost.gif)
+
+![Paradise Lost, card](cards/paradise-lost.png)
 
 #### Solemn Lament
 
