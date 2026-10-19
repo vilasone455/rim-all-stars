@@ -116,6 +116,8 @@ No GIF of these heroes yet. Each ability is listed with its in-game description 
 
 ### Accelerator (A Certain Magical Index)
 
+![Accelerator, card](cards/accelerator.png)
+
 Nothing that touches him keeps its direction.
 
 **How to get it**
@@ -156,6 +158,8 @@ Accelerator kicks a pebble at a pawn. It always hits, and pawns in between are n
 *Casting time: 0.3s · Cooldown: 2 s · Range: 24.9 cells · Damage: 14 blunt, 30% armour penetration*
 
 ### Goku (Dragon Ball)
+
+![Goku, card](cards/goku.png)
 
 He gets back up, and hits harder each time.
 
@@ -238,6 +242,8 @@ An explosion goes off on everyone who hears it and also hits anyone next to a li
 
 ### Itachi (Naruto)
 
+![Itachi, card](cards/itachi.png)
+
 He is never where the blow lands, and what looks at him sees what he chooses.
 
 **How to get it**
@@ -314,6 +320,8 @@ Obito breathes a widening corkscrew of flame straight ahead. Everyone it reaches
 *Charge cost: 2 · Casting time: 0.6s · Cooldown: 20 s · Length: 10 cells, widening to radius 2.5 · Damage: 22 burn · Breath taken: 3 s*
 
 ### Sasuke (Naruto)
+
+![Sasuke, card](cards/sasuke.png)
 
 His Rinnegan holds his thrown weapons in the air, trades places with anything it sees, runs lightning between them and sets black flames that nothing puts out.
 
@@ -445,6 +453,8 @@ Shikamaru gathers the shadows around him into his own for 20 seconds: his lines 
 *Charge cost: 3 · Casting time: 0.5s · Cooldown: 45 s · Needs: 8 cells under 40% light within 4 cells*
 
 ### Todo (Jujutsu Kaisen)
+
+![Todo, card](cards/todo.png)
 
 He claps, and whoever he chose is standing somewhere else.
 
