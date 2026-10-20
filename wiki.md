@@ -720,7 +720,7 @@ Stops time in a sphere around the wearer: nothing inside moves, burns, bleeds or
 - **Saves:** Safe to add to an existing save. Back up your save first, as with any big mod. Don't remove it from a save: heroes, items and pocket maps are saved with the colony.
 - **Melee Animation** (optional): I recommend using this. It adds animations to some abilities and weapons. Without it, everything still works, just without those animations.
 - **Combat Extended:** Not tested yet. A few weapons have CE patches; heroes are not balanced for CE.
-- **VPE:** Should work, since heroes don't use psycasts, and effects that block psycasts (Pain's chakra rods, Shirou's Trial) block VPE psycasts too. I haven't tested them together in a long game yet.
+- **VPE:** Should work, since heroes don't use psycasts, and effects that block psycasts (Pain's chakra rods, Shirou's Trial) block VPE psycasts too.
 - **HAR:** Not tested yet, but it should work. The costume is drawn over the colonist's own body instead of being worn, so race clothing limits shouldn't block it. It's built for vanilla body types, so some races may look a little off. Feel free to report anything weird.
 
 ## FAQ
@@ -730,6 +730,10 @@ Stops time in a sphere around the wearer: nothing inside moves, burns, bleeds or
 **Two of the same hero?** No. Each hero has one Host per colony.
 
 **A second Paradise Lost?** No. One-of-a-kind weapons are made once per world.
+
+**Can enemies use heroes or these weapons?** Not yet. Some abilities have complex mechanics or are designed specifically for player use, and programming raiders to use them requires a lot of testing. For the first version of this mod, heroes and weapon abilities are strictly for the player. However, I might allow raiders to use these powers in later updates.
+
+**Why do only some heroes change clothes?** I haven't finished making costumes for all the heroes yet, but costumes are purely cosmetic and do not affect gameplay stats. More will be added in future updates.
 
 ## Known issues
 
