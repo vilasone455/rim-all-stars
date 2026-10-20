@@ -134,41 +134,43 @@ He speaks rarely, and the word is law.
 - Awakening gives the Kind trait, replacing any that conflict.
 - Hero form drains 8 charge an hour.
 
+**Throat strain.** Every word strains Inumaki's throat by the percent in its line for each listener: x2 for a hostile, x2.5 for one in a mental break, x0.15 for one already obeying, less for one barely conscious. It lowers Talking by stage; at 85% there is no voice left and no word can be said. It heals 12% a day. Drinking one herbal medicine as throat syrup removes 30%. The **Volume** button on him sets how far a word carries and how much it strains: whisper 3 cells (x0.5), speak 8 cells (x1), shout 16 cells (x2).
+
 #### Stop
 
 Everyone who hears it stands still, then goes back to what they were doing, still holding their weapon and target.
 
-*Casting time: 0.4 s · Cooldown: 10 s · Hold: 3 s · Throat strain: 3% per listener at normal volume*
+*Casting time: 0.4 s · Cooldown: 10 s · Hold: 3 s · Throat strain: 3% per listener at speak volume*
 
 #### Drop
 
 Everyone who hears it and holds a weapon drops it at their feet (about half a second); they can pick it back up. Unarmed pawns do not add to the throat cost.
 
-*Casting time: 0.4 s · Cooldown: 20 s · Throat strain: 5.5% per armed listener at normal volume*
+*Casting time: 0.4 s · Cooldown: 20 s · Throat strain: 5.5% per armed listener at speak volume*
 
 #### Crush
 
 Everyone who hears it is crushed and stunned.
 
-*Casting time: 0.4 s · Cooldown: 30 s · Damage: 15 blunt, 30% armour penetration · Stun: 1 s · Throat strain: 9% per listener at normal volume*
+*Casting time: 0.4 s · Cooldown: 30 s · Damage: 15 blunt, 30% armour penetration · Stun: 1 s · Throat strain: 9% per listener at speak volume*
 
 #### Come
 
 Everyone who hears it walks to Inumaki, then goes back to what they were doing.
 
-*Casting time: 0.4 s · Cooldown: 30 s · Throat strain: 7% per listener at normal volume*
+*Casting time: 0.4 s · Cooldown: 30 s · Throat strain: 7% per listener at speak volume*
 
 #### Run
 
 Everyone who hears it runs away from Inumaki, then goes back to what they were doing.
 
-*Casting time: 0.4 s · Cooldown: 30 s · Distance: up to 24 cells · Throat strain: 9% per listener at normal volume*
+*Casting time: 0.4 s · Cooldown: 30 s · Distance: up to 24 cells · Throat strain: 9% per listener at speak volume*
 
 #### Explode
 
 An explosion goes off on everyone who hears it and also hits anyone next to a listener, allies too, but not Inumaki.
 
-*Casting time: 0.4 s · Cooldown: 1 day · Damage: 35 bomb within 1.5 cells · Throat strain: 35% per listener at normal volume*
+*Casting time: 0.4 s · Cooldown: 1 day · Damage: 35 bomb within 1.5 cells · Throat strain: 35% per listener at speak volume*
 
 ### Obito (Naruto)
 
