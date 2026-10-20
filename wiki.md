@@ -2,7 +2,7 @@
 
 # Rim All-Stars
 
-15 heroes from Jujutsu Kaisen, Naruto, Devil May Cry, Fate, Dragon Ball, Demon Slayer, Ajin and A Certain Magical Index (Gojo, Itachi, Vergil, Goku, Pain, Nakime and more), plus 25 weapons and gear, each with its own effects.
+Let your colonists borrow the power of heroes from other worlds: Gojo, Itachi, Vergil, Goku, Pain, Nakime and 9 more, each with their own abilities.
 
 ## Contents
 
@@ -725,7 +725,7 @@ Stops time in a sphere around the wearer: nothing inside moves, burns, bleeds or
 
 ## FAQ
 
-**How do I get a hero?** Research the resonance device, build it, pick a hero and a colonist in its tab, pass the Trials, Awaken.
+**How do I get a hero?** On day 10 a meteorite brings the resonance shard. Study it at a research bench, research the resonance device, build it, pick a hero and a colonist in its tab, pass the Trials, Awaken. The day can be changed in the mod settings (0: at once).
 
 **Two of the same hero?** No. Each hero has one Host per colony.
 
@@ -753,4 +753,4 @@ Reports without a log usually can't be fixed.
 
 ## Credits
 
-Fan work, free and unofficial. Characters, weapons and names belong to their creators: Gege Akutami (Jujutsu Kaisen), Masashi Kishimoto (Naruto), Capcom (Devil May Cry), TYPE-MOON (Fate), Akira Toriyama (Dragon Ball), Koyoharu Gotouge (Demon Slayer), Gamon Sakurai (Ajin), Kazuma Kamachi (A Certain Magical Index), Yoshihiro Togashi (Hunter x Hunter), Re-Logic (Terraria), Project Moon (Lobotomy Corporation), Firaxis (XCOM 2). Not affiliated with them or with Ludeon Studios.
+Fan work, free and unofficial. All characters, weapons and names belong to their original creators. Not affiliated with them or with Ludeon Studios.
