@@ -4,9 +4,10 @@
 
 Let your colonists borrow the power of heroes from other worlds: Gojo, Itachi, Vergil, Goku, Pain, Nakime and 9 more, each with their own abilities.
 
+![](cards/become-a-hero.png)
+
 ## Contents
 
-- [Requires](#requires)
 - [Heroes](#heroes)
   - [Gojo (Jujutsu Kaisen)](#gojo-jujutsu-kaisen)
   - [Minato (Naruto)](#minato-naruto)
@@ -57,12 +58,6 @@ Let your colonists borrow the power of heroes from other worlds: Gojo, Itachi, V
 - [Known issues](#known-issues)
 - [Bug reports](#bug-reports)
 - [Credits](#credits)
-
-## Requires
-
-Harmony, Vanilla Expanded Framework, Biotech. RimWorld 1.6 (1.7 beta: see Compatibility).
-
-![](cards/become-a-hero.png)
 
 ## Heroes
 
