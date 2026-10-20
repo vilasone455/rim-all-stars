@@ -66,6 +66,8 @@ Harmony, Vanilla Expanded Framework, Biotech. RimWorld 1.6 (1.7 beta: see Compat
 
 ## Heroes
 
+Each hero lives in one colonist, its **Host**. The Host has the hero's abilities only in hero form (the **Manifest** button). Hero form drains the colony's **charge** every hour, and some abilities cost charge to cast. The resonance device holds 100 charge and refills 5 an hour while powered; its research upgrades raise both.
+
 ### Gojo (Jujutsu Kaisen)
 
 ![Gojo, in game](gifs/gojo.gif)
@@ -128,46 +130,45 @@ He speaks rarely, and the word is law.
 
 **How to get it**
 
-- Trial: social 10.
-- Trial: does not have psychopath.
-- Awakening gives the trait kind, replacing any trait it conflicts with.
-- The abilities are there only while the Host is manifested (hero form). Hero form drains 8 of the colony's charge an hour.
+- To become the Host, a colonist needs Social 10 and no Psychopath trait.
+- Awakening gives the Kind trait, replacing any that conflict.
+- Hero form drains 8 charge an hour.
 
 #### Stop
 
 Everyone who hears it stands still, then goes back to what they were doing, still holding their weapon and target.
 
-*Casting time: 0.4s · Cooldown: 10 s · Hold: 3 s · Throat: 3% per listener at speak volume*
+*Casting time: 0.4 s · Cooldown: 10 s · Hold: 3 s · Throat strain: 3% per listener at normal volume*
 
 #### Drop
 
 Everyone who hears it and holds a weapon drops it at their feet (about half a second); they can pick it back up. Unarmed pawns do not add to the throat cost.
 
-*Casting time: 0.4s · Cooldown: 20 s · Throat: 5.5% per armed listener at speak volume*
+*Casting time: 0.4 s · Cooldown: 20 s · Throat strain: 5.5% per armed listener at normal volume*
 
 #### Crush
 
 Everyone who hears it is crushed and stunned.
 
-*Casting time: 0.4s · Cooldown: 30 s · Damage: 15 blunt, 30% armour penetration · Stun: 1 s · Throat: 9% per listener at speak volume*
+*Casting time: 0.4 s · Cooldown: 30 s · Damage: 15 blunt, 30% armour penetration · Stun: 1 s · Throat strain: 9% per listener at normal volume*
 
 #### Come
 
 Everyone who hears it walks to Inumaki, then goes back to what they were doing.
 
-*Casting time: 0.4s · Cooldown: 30 s · Throat: 7% per listener at speak volume*
+*Casting time: 0.4 s · Cooldown: 30 s · Throat strain: 7% per listener at normal volume*
 
 #### Run
 
 Everyone who hears it runs away from Inumaki, then goes back to what they were doing.
 
-*Casting time: 0.4s · Cooldown: 30 s · Distance: up to 24 cells · Throat: 9% per listener at speak volume*
+*Casting time: 0.4 s · Cooldown: 30 s · Distance: up to 24 cells · Throat strain: 9% per listener at normal volume*
 
 #### Explode
 
 An explosion goes off on everyone who hears it and also hits anyone next to a listener, allies too, but not Inumaki.
 
-*Casting time: 0.4s · Cooldown: 1 day · Damage: 35 bomb within 1.5 cells · Throat: 35% per listener at speak volume*
+*Casting time: 0.4 s · Cooldown: 1 day · Damage: 35 bomb within 1.5 cells · Throat strain: 35% per listener at normal volume*
 
 ### Obito (Naruto)
 
@@ -175,40 +176,39 @@ What strikes him passes into another world, and so does whoever he touches.
 
 **How to get it**
 
-- Trial: melee 12.
-- Trial: intellectual 10.
-- Awakening gives the trait sanguine, replacing any trait it conflicts with.
-- The abilities are there only while the Host is manifested (hero form). Hero form drains 12 of the colony's charge an hour.
+- To become the Host, a colonist needs Melee 12 and Intellectual 10.
+- Awakening gives the Sanguine trait, replacing any that conflict.
+- Hero form drains 12 charge an hour.
 
-#### Kamui: phase
+#### Kamui: Phase
 
 Obito becomes intangible: every hit goes through him into his Kamui dimension. While phased he cannot attack, carry or use his other abilities. Phasing spends his own pool, which refills while he is solid.
 
 *Pool: 30 s, refills 0.25 s per second solid · Turning solid: 0.25 s*
 
-#### Kamui: warp
+#### Kamui: Warp
 
 Obito winds himself into his Kamui dimension. From inside, use it again to come out at any revealed spot on the map he left; a swirl marks the spot first. Going in costs charge, coming out is free, and the cooldown starts when he comes out.
 
-*Charge cost: 2 · Casting time: 1s · Cooldown: 15 s · Swirl before he comes out: 0.5 s · Cooldown after coming out: 15 s*
+*Charge cost: 2 · Casting time: 1 s · Cooldown: 15 s · Swirl before he comes out: 0.5 s · Cooldown after coming out: 15 s*
 
-#### Kamui: store
+#### Kamui: Store
 
 Absorb: Obito touches a person or animal (or its corpse), or one item stack, and takes it into his Kamui dimension; at once if it is an enemy whose attack just went through him. Enemies inside stay stunned, allies awake. Release puts a stored thing out on a spot in sight, an enemy stunned; a weapon or heavy stack can be shot instead (Kamui: fire). An enemy not released comes back out by itself where it was taken; allies and items stay until released.
 
-*Charge cost: 1 · Casting time: 0.4s · Cooldown: 15 s · Largest body size: 1.2 (a megaspider) · At once on an enemy that hit him within: 5 s · Release: within 6 cells, 2 s stun, 5 s cooldown · An enemy comes back by itself after: 60 s*
+*Charge cost: 1 · Casting time: 0.4 s · Cooldown: 15 s · Largest body size: 1.2 (a megaspider) · At once on an enemy that hit him within: 5 s · Release: within 6 cells, 2 s stun, 5 s cooldown · An enemy comes back by itself after: 60 s*
 
-#### Kamui: fire
+#### Kamui: Fire
 
 Shoots a stored thing out of the Kamui dimension at a target in sight, chosen from the Release menu. The Fūma Shuriken cuts everyone on its line. A melee weapon hits one target with its strongest attack. Kunai go several at a time. A stack of resources or chunks hits harder the heavier it is. Every shot but the Fūma's rolls to hit with Obito's Melee skill. People, corpses, guns, explosives, apparel and light things cannot be shot.
 
-*Charge cost: 1 · Casting time: 0.4s · Cooldown: 10 s · Range: 12 cells · Melee weapon: x1.3 its strongest attack · Kunai: 3 per shot · Stack of 5 kg or more: 1 blunt per kg, up to 35*
+*Charge cost: 1 · Casting time: 0.4 s · Cooldown: 10 s · Range: 12 cells · Melee weapon: x1.3 its strongest attack · Kunai: 3 per shot · Stack of 5 kg or more: 1 blunt per kg, up to 35*
 
-#### Fire Release: blast wave wild dance
+#### Fire Release: Blast Wave Wild Dance
 
 Obito breathes a widening corkscrew of flame straight ahead. Everyone it reaches, allies too but not Obito, takes one hit, catches fire and cannot breathe for a moment (less consciousness and movement); the ground it passes burns. A wall stops it.
 
-*Charge cost: 2 · Casting time: 0.6s · Cooldown: 20 s · Length: 10 cells, widening to radius 2.5 · Damage: 22 burn · Breath taken: 3 s*
+*Charge cost: 2 · Casting time: 0.6 s · Cooldown: 20 s · Length: 10 cells, widening to radius 2.5 · Damage: 22 burn · Breath taken: 3 s*
 
 ### Satō (Ajin)
 
@@ -216,41 +216,39 @@ Death is only a reset, and the war is a game he means to win.
 
 **How to get it**
 
-- Trial: shooting 12.
-- Trial: kills 30.
-- Trial: damage taken 500.
-- Awakening gives the trait Ajin and psychopath, replacing any trait it conflicts with.
-- The abilities are there only while the Host is manifested (hero form). Hero form drains 10 of the colony's charge an hour.
+- To become the Host, a colonist needs Shooting 12, 30 kills and 500 damage taken.
+- Awakening gives the Ajin and Psychopath traits, replacing any that conflict.
+- Hero form drains 10 charge an hour.
 
 #### Sever
 
 Satō cuts off a part of his own body (a leg, an arm, a hand, a finger or an ear) and throws it; it lands as an anchor. If his body is destroyed he rises at his biggest anchor, and the Black Ghost can be summoned at any of them. An anchor past the limit makes the oldest crumble. The stump bleeds until a Reset grows the part back; with both ears cut off he is deaf.
 
-*Casting time: 0.3s · Cooldown: 10 s · Range: 6.9 cells · Anchors: up to 2, each rots after 3 days*
+*Casting time: 0.3 s · Cooldown: 10 s · Range: 7 cells · Anchors: up to 2, each rots after 3 days*
 
-#### Headshot reset
+#### Headshot Reset
 
 Satō shoots himself in the head, plays dead, then rises where he fell with every wound healed and every cut-off part grown back; his gear and anchors stay. Raiders take him for downed meanwhile. If the body is destroyed in that time, he rises at his biggest anchor.
 
-*Casting time: 0.6s · Cooldown: 60 s · Dead for: 6 s*
+*Casting time: 0.6 s · Cooldown: 60 s · Dead for: 6 s*
 
-#### Grenade reset
+#### Grenade Reset
 
 Satō pulls the pin and holds on. The blast hurts everyone around him, allies too, and destroys his body: he rises at his biggest anchor, naked (or where he stood if he has none), and his gear lies where he blew up.
 
-*Charge cost: 5 · Casting time: 0.5s · Cooldown: 60 s · Blast: 50 bomb within 3 cells, 30% armour penetration*
+*Charge cost: 5 · Casting time: 0.5 s · Cooldown: 60 s · Blast: 50 bomb within 3 cells, 30% armour penetration*
 
-#### Black ghost
+#### Black Ghost
 
 Black matter pours out of Satō and stands up as his IBM, next to him or at one of his anchors. It fights on its own around where it formed and takes orders: go here, attack, and once per summon tear an arm or a leg off an enemy next to it. It takes half damage, lasts longer the bigger the piece it formed at, and dissolves when he reverts.
 
-*Charge cost: 10 · Casting time: 0.5s · Cooldown: 120 s · Range: 30.9 cells · Guards within: 9 cells · Lasts: 45 / 45 / 35 / 20 / 10 / 10 s at Body / Leg / Arm / Hand / Finger / Ear*
+*Charge cost: 10 · Casting time: 0.5 s · Cooldown: 120 s · Range: 31 cells · Guards within: 9 cells · Lasts: 45 / 45 / 35 / 20 / 10 / 10 s at Body / Leg / Arm / Hand / Finger / Ear*
 
-#### The game
+#### The Game
 
 Satō marks the next player to lose. The marked enemy takes more damage from his shots; if it dies while marked, to anyone, the pool gets charge back. One mark at a time.
 
-*Charge cost: 5 · Casting time: 0.3s · Cooldown: 45 s · Range: 29.9 cells · Mark: 30 s, x1.3 damage from his shots · Kill refund: 15 charge*
+*Charge cost: 5 · Casting time: 0.3 s · Cooldown: 45 s · Range: 30 cells · Mark: 30 s, x1.3 damage from his shots · Kill refund: 15 charge*
 
 ### Shikamaru (Naruto)
 
@@ -258,56 +256,57 @@ Where his shadow reaches, nothing moves but by his leave.
 
 **How to get it**
 
-- Trial: intellectual 14.
-- Trial: people captured 5.
-- Awakening gives the trait industrious, replacing any trait it conflicts with.
-- The abilities are there only while the Host is manifested (hero form). Hero form drains 10 of the colony's charge an hour.
+- To become the Host, a colonist needs Intellectual 14 and 5 people captured.
+- Awakening gives the Industrious trait, replacing any that conflict.
+- Hero form drains 10 charge an hour.
 
-#### Shadow imitation
+#### Shadow Imitation
 
 The shadow runs over the ground to one person, animal or mech and holds it: it cannot act, and every cell Shikamaru steps drags it one cell the same way. A body over size 2 is held half as long. Reach scales with the light where he stands: half in daylight, full by a lamp or fire, none in the dark. The line breaks when a pawn crosses it, a cell under it goes dark, or smoke covers it.
 
-*Charge cost: 3 · Casting time: 1s · Cooldown: 20 s · Reach: 19.9 cells x light · Hold: 15 s*
+*Charge cost: 3 · Casting time: 1 s · Cooldown: 20 s · Reach: 20 cells x light · Hold: 15 s*
 
-#### Shadow seam
+#### Shadow Seam
 
 Sews two pawns or loose items that stand in light together: they cannot get far apart, whoever moves drags the other, and when both pull the larger body wins (an item never does). Reach scales with the light where he stands. It breaks like every shadow line: a pawn crossing it, a dark cell under it, smoke over it.
 
-*Charge cost: 3 · Casting time: 0.8s · Cooldown: 30 s · Reach: 15.9 cells x light · Seam: 20 s, at most 4 cells apart*
+*Charge cost: 3 · Casting time: 0.8 s · Cooldown: 30 s · Reach: 16 cells x light · Seam: 20 s, at most 4 cells apart*
 
-#### Shadow grasp
+#### Shadow Grasp
 
 A hand of shadow slides a loose item, a weapon on the ground, a corpse or a downed body over the ground to a chosen cell; it is not teleported. A pawn on the path stops it in that pawn's cell; a wall or another item stops it before. Both the thing and the cell must be within reach, which scales with the light where he stands. A grenade in the air cannot be picked.
 
-*Charge cost: 1 · Casting time: 0.5s · Cooldown: 15 s · Reach: 24.9 cells x light · Speed: 12 cells per second (item), 6 (body)*
+*Charge cost: 1 · Casting time: 0.5 s · Cooldown: 15 s · Reach: 25 cells x light · Speed: 12 cells per second (item), 6 (body)*
 
-#### Shadow double
+#### Shadow Double
 
 His shadow goes to a lit cell and stands there. While it stands, shadow imitation, seam and grasp are cast from its cell and use its light, so he can stay in the dark. It copies his steps; a wall stops it. It is not a pawn and cannot be hit. It ends early when its cell goes dark or a pawn crosses the line between it and him (that line may cross dark cells).
 
-*Charge cost: 5 · Casting time: 1s · Cooldown: 60 s · Reach: 24.9 cells · Stands: 20 s*
+*Charge cost: 5 · Casting time: 1 s · Cooldown: 60 s · Reach: 25 cells · Stands: 20 s*
 
-#### Shadow neck bind
+#### Shadow Neck Bind
 
 Only on a pawn held by shadow imitation or sewn by shadow seam: hands of shadow climb the line and close on its throat while he channels, standing still. At full suffocation it falls unconscious for 2 minutes, not dead. If the line breaks, he moves or gets another order, the hands fall off and the suffocation drains. Mechanoids have no throat.
 
 *Charge cost: 2 · Cooldown: 45 s · Climb: 1.5 s · Channel: up to 8 s, suffocation +12.5% per second*
 
-#### Shadow spread
+#### Shadow Spread
 
 The shadow splits and holds several enemies near a chosen cell, nearest it first: they cannot act, and every cell Shikamaru steps drags each the same way. A body over size 2 is held half as long. Each pawn has its own line, cut as usual and freeing only its pawn; reach to each scales with the light where he stands. Pawns are chosen when it fires, so one that walks out during the cast is not caught. It and shadow imitation replace each other's holds.
 
-*Charge cost: 20 · Casting time: 1.5s · Cooldown: 120 s · Reach: 19.9 cells x light · Targets: up to 5 within 5 cells of the cell · Hold: 12 s*
+*Charge cost: 20 · Casting time: 1.5 s · Cooldown: 120 s · Reach: 20 cells x light · Targets: up to 5 within 5 cells of the cell · Hold: 12 s*
 
-#### Shadow gathering
+#### Shadow Gathering
 
 Shikamaru gathers the shadows around him into his own for 20 seconds: his lines are cut only by a body of size 2 or more, go dark only under 15% light instead of 30%, and need smoke twice as thick to be covered. Reach does not change, and a line still breaks if he goes down. It needs shade around where he casts from (him or a standing shadow double): a roof, walls or dim light; open ground in daylight has none.
 
-*Charge cost: 3 · Casting time: 0.5s · Cooldown: 45 s · Needs: 8 cells under 40% light within 4 cells*
+*Charge cost: 3 · Casting time: 0.5 s · Cooldown: 45 s · Needs: 8 cells under 40% light within 4 cells*
 
 ## Weapons and gear
 
 **One of a kind:** the four E.G.O. weapons, Last Prism, Samehada and Power Pole are made at the fabrication bench after their research, and only one of each can ever exist in a world, even after it is destroyed.
+
+A weapon gives its abilities while equipped and a worn item while worn; they go away when it is removed, and a weapon keeps its cooldowns when it changes hands.
 
 ### Weapons
 
@@ -347,15 +346,14 @@ A heavy pistol whose bullets bounce off walls. Normal fire works like a revolver
 
 **How to get it**
 
-- Craft it at a machining table after researching **ricochet rounds** (which needs gunsmithing). Needs Crafting skill 5. Costs steel ×40 and component ×3.
+- Craft it at a machining table after researching **ricochet rounds** (which needs gunsmithing). Needs Crafting 5. Costs 40 steel and 3 components.
 - Can be bought from traders.
-- Equip it as a weapon to use the ability. Unequipping it removes it; cooldowns carry over.
 
-##### Bank shot
+##### Bank Shot
 
 Charges the pistol, then fires toward a spot, usually a wall. The bullet bounces off walls and closed doors and embeds in the wall after its last bounce. It stops at the first standing pawn it crosses, ally or enemy, needs no line of sight to it, and hits harder for every bounce before the hit. The whole path is drawn while aiming.
 
-*Casting time: 1.5s · Cooldown: 4 s · Bounces: up to 3 · Damage: 18 + 6 per bounce · Flight: 30 cells, bounces included*
+*Casting time: 1.5 s · Cooldown: 4 s · Bounces: up to 3 · Damage: 18 + 6 per bounce · Flight: 30 cells, bounces included*
 
 #### Bubble Pipe
 
@@ -363,20 +361,19 @@ A bamboo blowpipe and a jar of soap solution worn at the hip. The jar holds 10 b
 
 **How to get it**
 
-- Craft it at a crafting spot or machining table after researching **bubble pipe**. Needs Crafting skill 3. Costs wood ×15 and cloth ×5.
-- Equip it as a weapon to use its abilities. Unequipping it removes them; cooldowns carry over.
+- Craft it at a crafting spot or machining table after researching **bubble pipe**. Needs Crafting 3. Costs 15 wood and 5 cloth.
 
-##### Drifting burst
+##### Drifting Burst
 
 Blows a fan of soap bubbles that drift slowly toward a spot. The first pawn other than the wielder to touch one pops it, and the burst hurts and staggers every pawn close by, allies too. Bubbles that touch a wall or drift too long pop harmlessly.
 
-*Casting time: 0.45s · Cooldown: 10 s · Bubbles: 6, drifting up to 8 s · Burst: 5 blunt within 0.8 cells, 1 s stagger · Soap: 2 blows*
+*Casting time: 0.45 s · Cooldown: 10 s · Bubbles: 6, drifting up to 8 s · Burst: 5 blunt within 0.8 cells, 1 s stagger · Soap: 2 blows*
 
-##### Eye pop
+##### Eye Pop
 
 Blows one bubble at a pawn's face; it always gets there and leaves soap in its eyes: shooting accuracy -30%, melee hit chance halved, move speed -30%. No damage.
 
-*Casting time: 0.45s · Cooldown: 8 s · Range: 8.9 cells · Soap in the eyes: 5 s · Soap: 1 blow*
+*Casting time: 0.45 s · Cooldown: 8 s · Range: 9 cells · Soap in the eyes: 5 s · Soap: 1 blow*
 
 #### Coil Gun
 
@@ -384,15 +381,14 @@ A rifle that throws its rounds with magnetic coils, fed from a battery in the st
 
 **How to get it**
 
-- Craft it at a machining table after researching **coil gun** (which needs microelectronics). Needs Crafting skill 6. Costs steel ×60, plasteel ×20 and component ×4.
+- Craft it at a machining table after researching **coil gun** (which needs microelectronics). Needs Crafting 6. Costs 60 steel, 20 plasteel and 4 components.
 - Can be bought from traders.
-- Equip it as a weapon to use the ability. Unequipping it removes it; cooldowns carry over.
 
-##### Chain arc
+##### Chain Arc
 
 Fires a bolt of lightning at a hostile pawn that jumps on to the nearest hostile near the last one hit, skipping allies and downed pawns. Mechanoids and soaked pawns take more, and from a soaked pawn the next jump reaches further.
 
-*Casting time: 0.5s · Cooldown: 20 s · Range: 25.9 cells · Jumps: 3, each within 3 cells (x2 from a soaked pawn) · Damage: 12 electrical burn, 35% armour penetration · Mechanoids x1.5, soaked x1.5 · Battery: 5*
+*Casting time: 0.5 s · Cooldown: 20 s · Range: 26 cells · Jumps: 3, each within 3 cells (x2 from a soaked pawn) · Damage: 12 electrical burn, 35% armour penetration · Mechanoids x1.5, soaked x1.5 · Battery: 5*
 
 #### Frost Bomb
 
@@ -400,13 +396,13 @@ A cryogenic charge in a throwable tube. It bursts into a small freezing cloud: e
 
 **How to get it**
 
-- Craft it at a machining table after researching **cryogenic munitions** (which needs machining). Needs Crafting skill 5. Costs steel ×20, component ×2 and chemfuel ×40.
+- Craft it at a machining table after researching **cryogenic munitions** (which needs machining). Needs Crafting 5. Costs 20 steel, 2 components and 40 chemfuel.
 - Can be bought from traders.
 - Equip it as a weapon; the throw is a button on the pawn.
 
-##### Throw frost bomb
+##### Throw Frost Bomb
 
-Cooldown: 6 s · Range: 12.9 cells
+Cooldown: 6 s · Range: 13 cells
 
 #### Frost Rifle
 
@@ -414,15 +410,14 @@ A rifle that fires bolts of supercooled gas. Each hit chills a creature, 10% slo
 
 **How to get it**
 
-- Craft it at a machining table after researching **frost rifle** (which needs cryogenic munitions). Needs Crafting skill 6. Costs steel ×70 and component ×5.
+- Craft it at a machining table after researching **frost rifle** (which needs cryogenic munitions). Needs Crafting 6. Costs 70 steel and 5 components.
 - Can be bought from traders.
-- Equip it as a weapon to use the ability. Unequipping it removes it; cooldowns carry over.
 
-##### Flash freeze
+##### Flash Freeze
 
 Fires a freezing beam at one creature that is soaked or chilled 3 times; it is frozen solid and cannot move or act. The next hit shatters the ice for extra damage; otherwise it thaws. Uses up the soaking or the chill.
 
-*Casting time: 0.8s · Cooldown: 30 s · Range: 22.9 cells · Frozen: 5 s · Shatter: 15 cut · Coolant: 10*
+*Casting time: 0.8 s · Cooldown: 30 s · Range: 23 cells · Frozen: 5 s · Shatter: 15 cut · Coolant: 10*
 
 #### Fūma Shuriken
 
@@ -430,7 +425,7 @@ A massive folding shuriken: four curved blades that fan open around a grip ring.
 
 **How to get it**
 
-- Craft it at a electric smithy or fueled smithy after researching **smithing**. Needs Crafting skill 6. Costs steel ×80.
+- Craft it at an electric smithy or fueled smithy after researching **smithing**. Needs Crafting 6. Costs 80 steel.
 - Can be bought from traders.
 - Equip it as a melee weapon; the throw is a button on the pawn.
 
@@ -444,13 +439,13 @@ A throwable projector that stands a copy of the thrower where it lands. The copy
 
 **How to get it**
 
-- Craft it at a machining table after researching **holographic projection** (which needs machining and microelectronics). Needs Crafting skill 6. Costs steel ×40, component ×4 and gold ×10.
+- Craft it at a machining table after researching **holographic projection** (which needs machining and microelectronics). Needs Crafting 6. Costs 40 steel, 4 components and 10 gold.
 - Can be bought from traders.
 - Equip it as a weapon; the throw is a button on the pawn.
 
-##### Throw mimic beacon
+##### Throw Mimic Beacon
 
-Cooldown: 8 s · Range: 12.9 cells
+Cooldown: 8 s · Range: 13 cells
 
 #### Tag Scroll
 
@@ -458,32 +453,31 @@ A roll of up to 20 explosive tags on a wooden rod. The wielder can use Tag Throw
 
 **How to get it**
 
-- Craft it at a machining table or crafting spot after researching **explosive tags** (which needs machining). Needs Crafting skill 5. Costs wood ×20 and cloth ×30.
-- Equip it as a weapon to use its abilities. Unequipping it removes them; cooldowns carry over.
+- Craft it at a machining table or crafting spot after researching **explosive tags** (which needs machining). Needs Crafting 5. Costs 20 wood and 30 cloth.
 
-##### Tag throw
+##### Tag Throw
 
 Throws one tag on a steel pin at a cell, pawn or wall; it sticks, burns briefly, then bursts, allies included. Stuck in a pawn it goes where the pawn goes; stuck in a wall or solid building, that building takes several times the damage. It rolls to hit with Melee like a thrown kunai, and a miss still sticks near the target.
 
-*Casting time: 0.3s · Cooldown: 4 s · Range: 12.9 cells · Fuse: 2 s · Burst: 35 bomb within 1.5 cells, x4 to a building it sticks in · Tags: 1*
+*Casting time: 0.3 s · Cooldown: 4 s · Range: 13 cells · Fuse: 2 s · Burst: 35 bomb within 1.5 cells, x4 to a building it sticks in · Tags: 1*
 
-##### Tag line
+##### Tag Line
 
 Flicks the scroll's strip along the ground (2.5 seconds standing still): plain strip first, then one tag per cell, each using a tag; a wall stops it short. The line lasts a day. Detonate lights it from the caster's end, or with the tripwire toggle on, the first hostile to step on a tag lights it there; the fuse runs along it and each tag bursts, allies included.
 
-*Casting time: 0.3s · Cooldown: 20 s · Range: 10.9 cells · Tags: up to 8 · Each tag: 30 bomb within 1.1 cells, 0.1 s apart*
+*Casting time: 0.3 s · Cooldown: 20 s · Range: 11 cells · Tags: up to 8 · Each tag: 30 bomb within 1.1 cells, 0.1 s apart*
 
-##### Paper shroud
+##### Paper Shroud
 
 Sends tags at one pawn; they stick all over it, stun it, then all go off: heavy damage to the target and less to everything next to it, allies included.
 
-*Casting time: 0.35s · Cooldown: 45 s · Range: 6.9 cells · Tags: 6 · Stun: 2 s · Burst: 60 bomb to the target, 20 within 0.9 cells*
+*Casting time: 0.35 s · Cooldown: 45 s · Range: 7 cells · Tags: 6 · Stun: 2 s · Burst: 60 bomb to the target, 20 within 0.9 cells*
 
-##### Detonate tag line
+##### Detonate Tag Line
 
 Makes a hand seal and lights every tag line this pawn has laid, from the caster's end of each, at any distance and without line of sight. Uses no tags.
 
-*Casting time: 0.35s · Cooldown: 1 s*
+*Casting time: 0.35 s · Cooldown: 1 s*
 
 #### Vacuum
 
@@ -491,26 +485,25 @@ The wand and floor head of a conjured vacuum cleaner; the canister rises from th
 
 **How to get it**
 
-- Craft it at a machining table after researching **vacuum** (which needs machining). Needs Crafting skill 5. Costs steel ×60, cloth ×15 and component ×2.
-- Equip it as a weapon to use its abilities. Unequipping it removes them; cooldowns carry over.
+- Craft it at a machining table after researching **vacuum** (which needs machining). Needs Crafting 5. Costs 60 steel, 15 cloth and 2 components.
 
 ##### Suck
 
 Pulls every loose item and all filth near a spot into the head, lightest first, so the heaviest ends up in the mouth; the nearest hostile there loses the weapon in its hands too (allies and neutrals keep theirs). Anything that would go over 100 kg stays. Cannot be used when full. Shares its cooldown with Spit.
 
-*Casting time: 0.3s · Range: 12.9 cells · Radius: 2 cells*
+*Casting time: 0.3 s · Range: 13 cells · Radius: 2 cells*
 
 ##### Spit
 
 Fires the thing in the mouth at a pawn or cell: a pawn there takes damage by its weight and is dazed, and the thing lands as itself. The stomach keeps the rest. Shares its cooldown with Suck.
 
-*Casting time: 0.3s · Range: 12.9 cells · Damage: 1.5 blunt per kg, up to 40 · Daze: 1.2 s*
+*Casting time: 0.3 s · Range: 13 cells · Damage: 1.5 blunt per kg, up to 40 · Daze: 1.2 s*
 
 ##### Digest
 
 The wielder stands still while the vacuum chews everything inside, mouth first; all of it is destroyed. Stopped early, the rest stays inside.
 
-*Casting time: 0.3s · Time: 0.05 s per kg, at least 0.5 s*
+*Casting time: 0.3 s · Time: 0.05 s per kg, at least 0.5 s*
 
 #### Water Gun
 
@@ -518,20 +511,19 @@ A pump-action water gun fed by a hose from a 30-unit water bag on the back; the 
 
 **How to get it**
 
-- Craft it at a machining table after researching **water gun** (which needs machining). Needs Crafting skill 5. Costs steel ×40, cloth ×20 and component ×1.
-- Equip it as a weapon to use its abilities. Unequipping it removes them; cooldowns carry over.
+- Craft it at a machining table after researching **water gun** (which needs machining). Needs Crafting 5. Costs 40 steel, 20 cloth and 1 component.
 
-##### Stream shot
+##### Stream Shot
 
 Fires a jet of water at a pawn or cell; it always lands. A pawn is hurt and soaked, and fire on the pawn and the cell is put out.
 
-*Casting time: 0.25s · Range: 20.9 cells · Damage: 6 blunt · Soaked: 60 s · Water: 1*
+*Casting time: 0.25 s · Range: 21 cells · Damage: 6 blunt · Soaked: 60 s · Water: 1*
 
-##### Hydro pump
+##### Hydro Pump
 
 Blasts a cone of water: every pawn in it the wielder can see, allies too, is hurt, pushed away, knocked down and soaked, and fire in it is put out.
 
-*Casting time: 0.6s · Cooldown: 12 s · Cone: 5 cells long, 3 wide · Hit: 8 blunt, 3-cell push, 2 s knockdown · Soaked: 60 s · Water: 10*
+*Casting time: 0.6 s · Cooldown: 12 s · Cone: 5 cells long, 3 wide · Hit: 8 blunt, 3-cell push, 2 s knockdown · Soaked: 60 s · Water: 10*
 
 ### E.G.O. weapons
 
@@ -547,7 +539,7 @@ A long black rifle with a gold band round the chamber: E.G.O. gear from Der Frei
 
 **How to get it**
 
-- Craft it at a fabrication bench after researching **E.G.O. extraction** (which needs pulse-charged munitions). Needs Crafting skill 10. Costs plasteel ×100, gold ×50 and advanced component ×4.
+- Craft it at a fabrication bench after researching **E.G.O. extraction** (which needs pulse-charged munitions). Needs Crafting 10. Costs 100 plasteel, 50 gold and 4 advanced components.
 - One of a kind: once one has existed in this world, no other can be made, even after it is destroyed, sold or lost. Traders never sell it and it is never a reward or loot.
 - A manifested hero cannot equip it. Held when a hero manifests, it waits in the inventory and is equipped again when the hero reverts.
 - Equip it as a ranged weapon; it attacks like any gun. A colonist holding it also gets the Overclock button.
@@ -570,7 +562,7 @@ A greatsword of red muscle over a dark steel edge, with a green eye, a blue eye 
 
 **How to get it**
 
-- Craft it at a fabrication bench after researching **E.G.O. extraction** (which needs pulse-charged munitions). Needs Crafting skill 10. Costs plasteel ×100, gold ×50 and advanced component ×4.
+- Craft it at a fabrication bench after researching **E.G.O. extraction** (which needs pulse-charged munitions). Needs Crafting 10. Costs 100 plasteel, 50 gold and 4 advanced components.
 - One of a kind: once one has existed in this world, no other can be made, even after it is destroyed, sold or lost. Traders never sell it and it is never a reward or loot.
 - A manifested hero cannot equip it. Held when a hero manifests, it waits in the inventory and is equipped again when the hero reverts.
 - Equip it as a melee weapon; it attacks like any blade. A colonist holding it also gets the Overclock button.
@@ -593,7 +585,7 @@ A pair of pistols, one white and one black: E.G.O. gear from the Funeral of the 
 
 **How to get it**
 
-- Craft it at a fabrication bench after researching **E.G.O. extraction** (which needs pulse-charged munitions). Needs Crafting skill 10. Costs plasteel ×100, gold ×50 and advanced component ×4.
+- Craft it at a fabrication bench after researching **E.G.O. extraction** (which needs pulse-charged munitions). Needs Crafting 10. Costs 100 plasteel, 50 gold and 4 advanced components.
 - One of a kind: once one has existed in this world, no other can be made, even after it is destroyed, sold or lost. Traders never sell it and it is never a reward or loot.
 - A manifested hero cannot equip it. Held when a hero manifests, it waits in the inventory and is equipped again when the hero reverts.
 - Equip it as a ranged weapon; it attacks like any gun. A colonist holding it also gets the Overclock button.
@@ -622,15 +614,14 @@ A belt-mounted transmitter and handset for a demolition drone. The wearer builds
 
 **How to get it**
 
-- Craft it at a machining table after researching **remote ordnance** (which needs machining and microelectronics). Needs Crafting skill 6. Costs steel ×40 and component ×3.
+- Craft it at a machining table after researching **remote ordnance** (which needs machining and microelectronics). Needs Crafting 6. Costs 40 steel and 3 components.
 - Can be bought from traders.
-- Wear it to use the ability. Taking it off removes the ability.
 
-##### Deploy toy car
+##### Deploy Toy Car
 
 Assembles a remote demolition drone just in front of the wearer. It does nothing until someone drives it, and the driver cannot move, shoot or work meanwhile. It blows up on command, or by itself if the driver is downed or killed while driving.
 
-*Casting time: 0.8s · Cooldown: 250 s*
+*Casting time: 0.8 s · Cooldown: 250 s*
 
 #### Kunai Belt
 
@@ -638,15 +629,14 @@ A belt with loops for 6 kunai, thrown with throw kunai. Reload it with kunai: th
 
 **How to get it**
 
-- Craft it at a fueled smithy or electric smithy after researching **smithing**. Needs Crafting skill 4. Costs steel ×30 and cloth ×20.
+- Craft it at a fueled smithy or electric smithy after researching **smithing**. Needs Crafting 4. Costs 30 steel and 20 cloth.
 - Holds 6 charges and starts full. Reload with kunai (1 per charge). Make 5 from 25 steel at a fueled smithy or electric smithy after researching **smithing**.
-- Wear it to use the ability. Taking it off removes the ability.
 
-##### Throw kunai
+##### Throw Kunai
 
 Throws one kunai from the kunai belt: 12 stab, 18% armour penetration. It rolls to hit with the thrower's Melee skill, counting distance, cover and weather like a gun, and a miss can hit someone near the line. A hit breaks it 20% of the time; otherwise it sticks in the body part (up to 3 per target) and that wound bleeds at half rate. Right-click the target to pull them out: 2 seconds for all, or from a standing enemy a melee roll per kunai; each comes back and cuts the wound again. Misses, and kunai in a killed target, drop to be picked up.
 
-*Casting time: 0.3s · Cooldown: 1.5 s · Range: 14.9 cells*
+*Casting time: 0.3 s · Cooldown: 1.5 s · Range: 15 cells*
 
 #### Makibishi Pouch
 
@@ -654,15 +644,14 @@ A cloth pouch of 3 handfuls of makibishi, scattered with scatter makibishi. Relo
 
 **How to get it**
 
-- Craft it at a hand tailor bench or electric tailor bench. Needs Crafting skill 3. Costs cloth ×30.
+- Craft it at a hand tailor bench or electric tailor bench. Needs Crafting 3. Costs 30 cloth.
 - Holds 3 charges and starts full. Reload with makibishi (1 per charge). Make 5 from 10 steel at a fueled smithy or electric smithy after researching **smithing**.
-- Wear it to use the ability. Taking it off removes the ability.
 
-##### Scatter makibishi
+##### Scatter Makibishi
 
 Tosses a handful of makibishi onto a 3x3 patch for 30 seconds: the centre and the 4 cells beside it always, each corner half the time, never on water or behind a wall. Each step onto a spiked cell has a 35% chance to hit a foot: 4 stab and a limp (-30% movement) that fades over 15 seconds. Colonists and allies are hurt the same, though people walk around spikes when the way round is short. Flyers and mechanoids are not affected.
 
-*Casting time: 0.5s · Cooldown: 2 s · Range: 9.9 cells*
+*Casting time: 0.5 s · Cooldown: 2 s · Range: 10 cells*
 
 #### Retrieval Hook Belt
 
@@ -670,14 +659,13 @@ A belt-mounted launcher that fires a padded net on a tether and reels in a downe
 
 **How to get it**
 
-- Craft it at a machining table after researching **machining** (which needs electricity and smithing). Needs Crafting skill 5. Costs steel ×60, component ×2 and cloth ×20.
-- Wear it to use the ability. Taking it off removes the ability.
+- Craft it at a machining table after researching **machining** (which needs electricity and smithing). Needs Crafting 5. Costs 60 steel, 2 components and 20 cloth.
 
-##### Retrieval hook
+##### Retrieval Hook
 
 Fires a padded net on a tether and reels the target in: a downed colonist, slave or ally, or an item (weapons, apparel, medicine, food, resources, minified buildings), up to 20 kg of a stack. The wearer stands still until it arrives; moving, going down or taking the belt off stops it. After every shot, hit or miss, the tether must be reeled in (10 seconds standing still). Dragging an injured person worsens one wound and removes its bandage, but cannot kill them or destroy the part.
 
-*Casting time: 0.5s · Range: 15 cells*
+*Casting time: 0.5 s · Range: 15 cells*
 
 #### Sleeper Box
 
@@ -689,14 +677,13 @@ Come out: a colony pawn that is not downed leaps to a cell within 4 cells; an en
 
 **How to get it**
 
-- Craft it at a crafting spot after researching **sleeper box** (which needs complex furniture). Needs Crafting skill 4. Costs wood ×60, steel ×15 and cloth ×10.
-- Wear it to use the ability. Taking it off removes the ability.
+- Craft it at a crafting spot after researching **sleeper box** (which needs complex furniture). Needs Crafting 4. Costs 60 wood, 15 steel and 10 cloth.
 
-##### Go in
+##### Go In
 
 The wearer walks to a pawn and puts it into the box: a colonist, slave, colony animal or any downed pawn of body size 1 or less. Not mechanoids, not a pawn in a mental break unless it is downed, and not one that came out of a box in the last 2 hours.
 
-*Casting time: 0.25s · Range: 30 cells*
+*Casting time: 0.25 s · Range: 30 cells*
 
 #### Stasis Belt
 
@@ -704,15 +691,14 @@ A field generator worn at the waist. Triggered, it stops time in a sphere around
 
 **How to get it**
 
-- Craft it at a machining table after researching **stasis fields** (which needs shields). Needs Crafting skill 8. Costs advanced component ×2, plasteel ×60 and gold ×20.
+- Craft it at a machining table after researching **stasis fields** (which needs shields). Needs Crafting 8. Costs 2 advanced components, 60 plasteel and 20 gold.
 - Can be given as a quest reward.
-- Wear it to use the ability. Taking it off removes the ability.
 
-##### Stasis field
+##### Stasis Field
 
 Stops time in a sphere around the wearer: nothing inside moves, burns, bleeds or can be harmed, raiders, your own people and the wearer alike. It buys time for everyone outside it.
 
-*Casting time: 1s · Cooldown: 5 days · Radius: 6.9 cells · Duration: 20 s*
+*Casting time: 1 s · Cooldown: 5 days · Radius: 7 cells · Duration: 20 s*
 
 ## Compatibility
 
