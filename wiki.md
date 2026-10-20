@@ -418,7 +418,7 @@ Fires a freezing beam at one creature that is soaked or chilled 3 times; it is f
 
 #### Fūma Shuriken
 
-A massive folding shuriken: four curved blades that fan open around a grip ring. Use it in melee, or throw it at a cell: it cuts every pawn in its path, allies too, for 30 cut, 20% less for each pawn after, at least 8; walls and closed doors stop it. Throwing leaves you unarmed; the same weapon lands intact to be picked up again, and a retrieval hook can pull it closer.
+A massive folding shuriken. Use it in melee, or throw it at a cell: it cuts every pawn in its path, allies too, for 30 cut, 20% less for each pawn after, at least 8; walls and closed doors stop it. Throwing leaves you unarmed; the same weapon lands intact to be picked up again, and a retrieval hook can pull it closer.
 
 **How to get it**
 
@@ -432,7 +432,7 @@ Cooldown: 4 s · Range: 12 cells
 
 #### Mimic Beacon
 
-A throwable projector that stands a copy of the thrower where it lands. The copy cannot move or fight, but most enemies shoot at it. It stops nothing: it fails when shot to pieces or after about 20 seconds, leaving nothing behind. It rebuilds its charge between throws and is never used up.
+A throwable projector that stands a copy of the thrower where it lands. The copy cannot move or fight, but most enemies shoot at it. It stops nothing: it fails when shot to pieces or after about 20 seconds. It rebuilds its charge between throws and is never used up.
 
 **How to get it**
 
@@ -478,7 +478,7 @@ Makes a hand seal and lights every tag line this pawn has laid, from the caster'
 
 #### Vacuum
 
-The wand and floor head of a conjured vacuum cleaner; the canister rises from the floor when it is used. In melee the wand is a blunt club. The wielder can use Suck, Spit and Digest. The mouth holds only the last thing swallowed; anything older is in the stomach for good. It holds 100 kg, and the wielder is 0.4% slower per kg inside.
+The wand and floor head of a conjured vacuum cleaner. In melee the wand is a blunt club. The wielder can use Suck, Spit and Digest. The mouth holds only the last thing swallowed; anything older is in the stomach for good. It holds 100 kg, and the wielder is 0.4% slower per kg inside.
 
 **How to get it**
 
@@ -504,7 +504,7 @@ The wielder stands still while the vacuum chews everything inside, mouth first; 
 
 #### Water Gun
 
-A pump-action water gun fed by a hose from a 30-unit water bag on the back; the bag's level shows on the wearer. The wielder can use Stream Shot and Hydro Pump. A soaked pawn is 10% slower, feels the cold sooner and cannot catch fire. The bag refills 10 units a second on or next to water, and 1 every 5 seconds outdoors in rain. In melee the gun is a weak blunt weapon.
+A pump-action water gun fed by a hose from a 30-unit water bag on the back. The wielder can use Stream Shot and Hydro Pump. A soaked pawn is 10% slower, feels the cold sooner and cannot catch fire. The bag refills 10 units a second on or next to water, and 1 every 5 seconds outdoors in rain. In melee the gun is a weak blunt weapon.
 
 **How to get it**
 
@@ -555,7 +555,7 @@ The wielder fires 6 lines, one a second, at the nearest hostile within 40 cells;
 
 #### Mimicry
 
-A greatsword of red muscle over a dark steel edge, with a green eye, a blue eye and bone spikes: E.G.O. gear from Nothing There.
+A greatsword of red muscle and bone: E.G.O. gear from Nothing There.
 
 **How to get it**
 
@@ -566,15 +566,15 @@ A greatsword of red muscle over a dark steel edge, with a green eye, a blue eye 
 
 ##### Attack
 
-A swing lands as the blade crosses the target, so a target that stepped away is missed. Each hit on a living creature heals the wielder by 10% of the damage dealt (not scars or lost limbs; mechanoids and buildings give nothing). One swing in 10 the blade swells and slams a strip about 2.7 cells long for 3.5 times the damage on every standing hostile under it: it cannot miss or be dodged, armour still counts, and walls keep pawns behind them out.
+Each hit on a living creature heals the wielder 10% of the damage (not scars or lost limbs). A swing has a 10% chance to slam a 2.7-cell strip for 3.5x damage on every standing hostile in it; the slam cannot miss or be dodged, armour still counts, and walls block it.
 
 ##### Corrosion
 
-Every swing may let the sword take its wielder: 50% below the minor break threshold, certain below the major, one step worse under Melee 8, never above the minor. For 40 seconds the wielder ignores orders and hunts the nearest pawn it can reach, any faction, downed too, swinging every 1.5 seconds and lunging up to 2 cells. Each hit it deals grows the arm a stage (up to 4, +15% damage each), each hit it takes shrinks it. Then it is exhausted for 3 hours.
+Each swing may let the sword take its wielder: 50% below the minor break threshold, certain below the major, one step worse under Melee 8, never above the minor. For 40 seconds the wielder ignores orders and attacks the nearest pawn it can reach, any faction, downed too, lunging up to 2 cells. Each hit it deals grows the arm (+15% damage, up to 4 stages); each hit it takes shrinks it. Then it is exhausted for 3 hours.
 
 ##### Overclock
 
-The wielder stands still and swings 5 times, one a second, at standing hostiles next to it. Costs 20 mood for 1 day.
+5 swings, one a second, at standing hostiles next to the wielder, who stands still. Costs 20 mood for 1 day.
 
 #### Solemn Lament
 
@@ -597,11 +597,11 @@ Each stack takes 7.5% consciousness, so an unhurt pawn goes down at 10 stacks, t
 
 ##### Corrosion
 
-Every shot may let the guns take their wielder: 25% below the minor break threshold, 75% below the major, certain below the extreme, one step worse under Shooting 4, never above the minor. For 30 seconds a coffin rises and butterflies circle the wielder, who ignores orders and walks to stand beside the nearest person or animal of any faction; every second each pawn within 3 cells takes a stack past the cap, and a pawn left down in the cloud dies at 20. Then the wielder is exhausted for 2 hours.
+Every shot may let the guns take their wielder: 25% below the minor break threshold, 75% below the major, certain below the extreme, one step worse under Shooting 4, never above the minor. For 30 seconds the wielder ignores orders and walks to stand beside the nearest person or animal of any faction; every second each pawn within 3 cells takes a stack past the cap, and a downed pawn within 3 cells dies at 20 stacks. Then the wielder is exhausted for 2 hours.
 
 ##### Overclock
 
-The coffin for 5 seconds; each second every standing hostile within 3 cells takes a stack, never past the cap. Costs 15 mood for 1 day.
+For 5 seconds, each second every standing hostile within 3 cells takes a stack, never past the cap. Costs 15 mood for 1 day.
 
 ### Worn
 
