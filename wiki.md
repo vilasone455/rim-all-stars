@@ -735,6 +735,8 @@ Stops time in a sphere around the wearer: nothing inside moves, burns, bleeds or
 
 **Why do only some heroes change clothes?** I haven't finished making costumes for all the heroes yet, but costumes are purely cosmetic and do not affect gameplay stats. More will be added in future updates.
 
+**[X] hero or weapon feels too weak/OP!** Some probably are. It's a big crossover, but I don't want it to trivialize the game: the aim is VPE-level power, and at worst nothing should be stronger than VPE's most broken paths. Expect buffs and nerfs in updates. I also plan to add settings so you can tune each hero and weapon yourself. If something feels off, tell me which one and why.
+
 ## Known issues
 
 - With Melee Animation, a pawn frozen by the stasis belt can still be executed.
