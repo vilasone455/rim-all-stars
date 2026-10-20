@@ -8,42 +8,42 @@ Let your colonists borrow the power of heroes from other worlds: Gojo, Itachi, V
 
 - [Requires](#requires)
 - [Heroes](#heroes)
-  - [Accelerator (A Certain Magical Index)](#accelerator-a-certain-magical-index)
   - [Gojo (Jujutsu Kaisen)](#gojo-jujutsu-kaisen)
-  - [Goku (Dragon Ball)](#goku-dragon-ball)
-  - [Inumaki (Jujutsu Kaisen)](#inumaki-jujutsu-kaisen)
-  - [Itachi (Naruto)](#itachi-naruto)
   - [Minato (Naruto)](#minato-naruto)
   - [Nakime (Demon Slayer)](#nakime-demon-slayer)
-  - [Obito (Naruto)](#obito-naruto)
   - [Pain (Naruto)](#pain-naruto)
+  - [Shirou (Fate/stay night)](#shirou-fatestay-night)
+  - [Vergil (Devil May Cry)](#vergil-devil-may-cry)
+  - [Accelerator (A Certain Magical Index)](#accelerator-a-certain-magical-index)
+  - [Goku (Dragon Ball)](#goku-dragon-ball)
+  - [Itachi (Naruto)](#itachi-naruto)
   - [Sasuke (Naruto)](#sasuke-naruto)
+  - [Todo (Jujutsu Kaisen)](#todo-jujutsu-kaisen)
+  - [Inumaki (Jujutsu Kaisen)](#inumaki-jujutsu-kaisen)
+  - [Obito (Naruto)](#obito-naruto)
   - [Satō (Ajin)](#satō-ajin)
   - [Shikamaru (Naruto)](#shikamaru-naruto)
-  - [Shirou (Fate/stay night)](#shirou-fatestay-night)
-  - [Todo (Jujutsu Kaisen)](#todo-jujutsu-kaisen)
-  - [Vergil (Devil May Cry)](#vergil-devil-may-cry)
 - [Weapons and gear](#weapons-and-gear)
   - [Weapons](#weapons)
+    - [Chain Sickle](#chain-sickle)
+    - [Flame Gauntlet](#flame-gauntlet)
+    - [Last Prism (Terraria)](#last-prism-terraria)
+    - [Power Pole (Dragon Ball)](#power-pole-dragon-ball)
+    - [Samehada (Naruto)](#samehada-naruto)
     - [Bank Shot Pistol](#bank-shot-pistol)
     - [Bubble Pipe](#bubble-pipe)
-    - [Chain Sickle](#chain-sickle)
     - [Coil Gun](#coil-gun)
-    - [Flame Gauntlet](#flame-gauntlet)
     - [Frost Bomb](#frost-bomb)
     - [Frost Rifle](#frost-rifle)
     - [Fūma Shuriken](#fūma-shuriken)
-    - [Last Prism (Terraria)](#last-prism-terraria)
     - [Mimic Beacon](#mimic-beacon)
-    - [Power Pole (Dragon Ball)](#power-pole-dragon-ball)
-    - [Samehada (Naruto)](#samehada-naruto)
     - [Tag Scroll](#tag-scroll)
     - [Vacuum](#vacuum)
     - [Water Gun](#water-gun)
   - [E.G.O. weapons](#ego-weapons)
+    - [Paradise Lost (Lobotomy Corporation)](#paradise-lost-lobotomy-corporation)
     - [Magic Bullet](#magic-bullet)
     - [Mimicry](#mimicry)
-    - [Paradise Lost (Lobotomy Corporation)](#paradise-lost-lobotomy-corporation)
     - [Solemn Lament](#solemn-lament)
   - [Worn](#worn)
     - [Drone Control Rig](#drone-control-rig)
@@ -66,19 +66,61 @@ Harmony, Vanilla Expanded Framework, Biotech. RimWorld 1.6 (1.7 beta: see Compat
 
 ## Heroes
 
-### Accelerator (A Certain Magical Index)
-
-![Accelerator, card](cards/accelerator.png)
-
 ### Gojo (Jujutsu Kaisen)
 
 ![Gojo, in game](gifs/gojo.gif)
 
 ![Gojo, card](cards/gojo.png)
 
+### Minato (Naruto)
+
+![Minato, in game](gifs/minato-chain.gif)
+
+![Minato, card](cards/minato.png)
+
+### Nakime (Demon Slayer)
+
+![Nakime, in game](gifs/nakime.gif)
+
+![Nakime, card](cards/nakime.png)
+
+### Pain (Naruto)
+
+![Pain, in game](gifs/pain.gif)
+
+![Pain, card](cards/pain.png)
+
+### Shirou (Fate/stay night)
+
+![Shirou, in game](gifs/shirou.gif)
+
+![Shirou, card](cards/shirou.png)
+
+### Vergil (Devil May Cry)
+
+![Vergil, in game](gifs/vergil.gif)
+
+![Vergil, card](cards/vergil.png)
+
+### Accelerator (A Certain Magical Index)
+
+![Accelerator, card](cards/accelerator.png)
+
 ### Goku (Dragon Ball)
 
 ![Goku, card](cards/goku.png)
+
+### Itachi (Naruto)
+
+![Itachi, card](cards/itachi.png)
+
+### Sasuke (Naruto)
+
+![Sasuke, card](cards/sasuke.png)
+
+### Todo (Jujutsu Kaisen)
+
+![Todo, card](cards/todo.png)
 
 ### Inumaki (Jujutsu Kaisen)
 
@@ -127,22 +169,6 @@ An explosion goes off on everyone who hears it and also hits anyone next to a li
 
 *Casting time: 0.4s · Cooldown: 1 day · Damage: 35 bomb within 1.5 cells · Throat: 35% per listener at speak volume*
 
-### Itachi (Naruto)
-
-![Itachi, card](cards/itachi.png)
-
-### Minato (Naruto)
-
-![Minato, in game](gifs/minato-chain.gif)
-
-![Minato, card](cards/minato.png)
-
-### Nakime (Demon Slayer)
-
-![Nakime, in game](gifs/nakime.gif)
-
-![Nakime, card](cards/nakime.png)
-
 ### Obito (Naruto)
 
 What strikes him passes into another world, and so does whoever he touches.
@@ -183,16 +209,6 @@ Shoots a stored thing out of the Kamui dimension at a target in sight, chosen fr
 Obito breathes a widening corkscrew of flame straight ahead. Everyone it reaches, allies too but not Obito, takes one hit, catches fire and cannot breathe for a moment (less consciousness and movement); the ground it passes burns. A wall stops it.
 
 *Charge cost: 2 · Casting time: 0.6s · Cooldown: 20 s · Length: 10 cells, widening to radius 2.5 · Damage: 22 burn · Breath taken: 3 s*
-
-### Pain (Naruto)
-
-![Pain, in game](gifs/pain.gif)
-
-![Pain, card](cards/pain.png)
-
-### Sasuke (Naruto)
-
-![Sasuke, card](cards/sasuke.png)
 
 ### Satō (Ajin)
 
@@ -289,27 +305,41 @@ Shikamaru gathers the shadows around him into his own for 20 seconds: his lines 
 
 *Charge cost: 3 · Casting time: 0.5s · Cooldown: 45 s · Needs: 8 cells under 40% light within 4 cells*
 
-### Shirou (Fate/stay night)
-
-![Shirou, in game](gifs/shirou.gif)
-
-![Shirou, card](cards/shirou.png)
-
-### Todo (Jujutsu Kaisen)
-
-![Todo, card](cards/todo.png)
-
-### Vergil (Devil May Cry)
-
-![Vergil, in game](gifs/vergil.gif)
-
-![Vergil, card](cards/vergil.png)
-
 ## Weapons and gear
 
 **One of a kind:** the four E.G.O. weapons, Last Prism, Samehada and Power Pole are made at the fabrication bench after their research, and only one of each can ever exist in a world, even after it is destroyed.
 
 ### Weapons
+
+#### Chain Sickle
+
+![Chain sickle, in game](gifs/chain-sickle.gif)
+
+![Chain sickle, card](cards/chain-sickle.png)
+
+#### Flame Gauntlet
+
+![Flame gauntlet, in game](gifs/flame-gauntlet.gif)
+
+![Flame gauntlet, card](cards/flame-gauntlet.png)
+
+#### Last Prism (Terraria)
+
+![Last prism, in game](gifs/last-prism.gif)
+
+![Last prism, card](cards/last-prism.png)
+
+#### Power Pole (Dragon Ball)
+
+![Power Pole, in game](gifs/power-pole.gif)
+
+![Power Pole, card](cards/power-pole.png)
+
+#### Samehada (Naruto)
+
+![Samehada, in game](gifs/samehada.gif)
+
+![Samehada, card](cards/samehada.png)
 
 #### Bank Shot Pistol
 
@@ -348,12 +378,6 @@ Blows one bubble at a pawn's face; it always gets there and leaves soap in its e
 
 *Casting time: 0.45s · Cooldown: 8 s · Range: 8.9 cells · Soap in the eyes: 5 s · Soap: 1 blow*
 
-#### Chain Sickle
-
-![Chain sickle, in game](gifs/chain-sickle.gif)
-
-![Chain sickle, card](cards/chain-sickle.png)
-
 #### Coil Gun
 
 A rifle that throws its rounds with magnetic coils, fed from a battery in the stock. Normal fire uses no charge, and mechanoids take 1.5 times its damage. The wielder can use Chain Arc, which spends charge from the gun's 20. The battery does not refill on its own: within 1.5 cells of a charged battery it recharges 1 a second, taking 10 Wd for each.
@@ -369,12 +393,6 @@ A rifle that throws its rounds with magnetic coils, fed from a battery in the st
 Fires a bolt of lightning at a hostile pawn that jumps on to the nearest hostile near the last one hit, skipping allies and downed pawns. Mechanoids and soaked pawns take more, and from a soaked pawn the next jump reaches further.
 
 *Casting time: 0.5s · Cooldown: 20 s · Range: 25.9 cells · Jumps: 3, each within 3 cells (x2 from a soaked pawn) · Damage: 12 electrical burn, 35% armour penetration · Mechanoids x1.5, soaked x1.5 · Battery: 5*
-
-#### Flame Gauntlet
-
-![Flame gauntlet, in game](gifs/flame-gauntlet.gif)
-
-![Flame gauntlet, card](cards/flame-gauntlet.png)
 
 #### Frost Bomb
 
@@ -420,12 +438,6 @@ A massive folding shuriken: four curved blades that fan open around a grip ring.
 
 Cooldown: 4 s · Range: 12 cells
 
-#### Last Prism (Terraria)
-
-![Last prism, in game](gifs/last-prism.gif)
-
-![Last prism, card](cards/last-prism.png)
-
 #### Mimic Beacon
 
 A throwable projector that stands a copy of the thrower where it lands. The copy cannot move or fight, but most enemies shoot at it. It stops nothing: it fails when shot to pieces or after about 20 seconds, leaving nothing behind. It rebuilds its charge between throws and is never used up.
@@ -439,18 +451,6 @@ A throwable projector that stands a copy of the thrower where it lands. The copy
 ##### Throw mimic beacon
 
 Cooldown: 8 s · Range: 12.9 cells
-
-#### Power Pole (Dragon Ball)
-
-![Power Pole, in game](gifs/power-pole.gif)
-
-![Power Pole, card](cards/power-pole.png)
-
-#### Samehada (Naruto)
-
-![Samehada, in game](gifs/samehada.gif)
-
-![Samehada, card](cards/samehada.png)
 
 #### Tag Scroll
 
@@ -535,6 +535,12 @@ Blasts a cone of water: every pawn in it the wielder can see, allies too, is hur
 
 ### E.G.O. weapons
 
+#### Paradise Lost (Lobotomy Corporation)
+
+![Paradise Lost, in game](gifs/paradise-lost.gif)
+
+![Paradise Lost, card](cards/paradise-lost.png)
+
 #### Magic Bullet
 
 A long black rifle with a gold band round the chamber: E.G.O. gear from Der Freischütz.
@@ -580,12 +586,6 @@ Every swing may let the sword take its wielder: 50% below the minor break thresh
 ##### Overclock
 
 The wielder stands still and swings 5 times, one a second, at standing hostiles next to it. Costs 20 mood for 1 day.
-
-#### Paradise Lost (Lobotomy Corporation)
-
-![Paradise Lost, in game](gifs/paradise-lost.gif)
-
-![Paradise Lost, card](cards/paradise-lost.png)
 
 #### Solemn Lament
 
