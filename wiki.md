@@ -2,7 +2,7 @@
 
 # Rim All-Stars
 
-Let your colonists borrow the power of heroes from other worlds: Gojo, Itachi, Vergil, Goku, Pain, Nakime and 9 more, each with their own abilities.
+Let your colonists borrow the power of heroes from other worlds, across anime and games. Adds 15 heroes, each with a unique moveset, plus 25 pieces of equipment, each with a unique mechanic.
 
 ![](cards/become-a-hero.png)
 
@@ -726,13 +726,7 @@ Stops time in a sphere around the wearer: nothing inside moves, burns, bleeds or
 
 ## Bug reports
 
-Post in the pinned **Bug reports** thread with:
-
-- your mod list
-- your log: HugsLib's Log Publisher (Ctrl+F12, Upload) or Player.log
-- what you expected and what happened
-
-Reports without a log usually can't be fixed.
+Something broke? Please tell me in the pinned **Bug reports** thread. If you can, add your log, your mod list and what happened.
 
 ## Credits
 
