@@ -7,7 +7,6 @@
 ## Contents
 
 - [Requires](#requires)
-- [How a colonist becomes a hero](#how-a-colonist-becomes-a-hero)
 - [Heroes](#heroes)
   - [Accelerator (A Certain Magical Index)](#accelerator-a-certain-magical-index)
   - [Gojo (Jujutsu Kaisen)](#gojo-jujutsu-kaisen)
@@ -63,12 +62,7 @@
 
 Harmony, Vanilla Expanded Framework, Biotech. RimWorld 1.6 (1.7 beta: see Compatibility).
 
-## How a colonist becomes a hero
-
-- Research **resonance device** and build it.
-- In its tab, pick a hero and one adult colonist. The colonist must pass that hero's Trials (Vergil: Melee 16 and 20 kills with a longsword).
-- Accept **Awaken**. The colonist becomes the hero's Host and switches into hero form at will.
-- Hero form and the big abilities spend the colony's shared charge: 100, refilling 5 an hour while the device has power. More research: up to 200 charge and 6 heroes.
+![](cards/become-a-hero.png)
 
 ## Heroes
 
