@@ -171,6 +171,8 @@ An explosion goes off on everyone who hears it and also hits anyone next to a li
 
 What strikes him passes into another world, and so does whoever he touches.
 
+**Needs:** Biotech DLC
+
 **How to get it**
 
 - To become the Host, a colonist needs Melee 12 and Intellectual 10.
@@ -701,6 +703,7 @@ Stops time in a sphere around the wearer: nothing inside moves, burns, bleeds or
 
 - **1.7 (unstable beta):** It loads, but I haven't fully tested it yet. Some effects may look off on the new engine (known: the stasis field's dome draws black). The abilities themselves work the same. I'll add full support once 1.7 is stable. If you try it on the beta, let me know how it goes.
 - **Saves:** Safe to add to an existing save. Back up your save first, as with any big mod. Don't remove it from a save: heroes, items and pocket maps are saved with the colony.
+- **Biotech** (optional): Itachi, Nakime, Obito and Todo need it, because their powers live in a gene. Without Biotech, the resonance device shows them as "Needs Biotech". Everything else works without it.
 - **Melee Animation** (optional): I recommend using this. It adds animations to some abilities and weapons. Without it, everything still works, just without those animations.
 - **Combat Extended:** Not tested yet. A few weapons have CE patches; heroes are not balanced for CE.
 - **VPE:** Should work, since heroes don't use psycasts, and effects that block psycasts (Pain's chakra rods, Shirou's Trial) block VPE psycasts too.
